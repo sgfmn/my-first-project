@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@100&display=swap');
 
 .main-flex {
-    flex-direction: row;
+    display: flex;
+    background-color: #000;
 }
 
 .ftr {
     flex-direction: row;
-}
-main {
-    display: flex; 
 }
