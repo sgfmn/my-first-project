@@ -7,3 +7,6 @@
 .ftr {
     flex-direction: row;
 }
+main {
+    display: flex; 
+}
