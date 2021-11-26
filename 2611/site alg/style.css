@@ -1,0 +1,36 @@
+.krug {
+   background-color: #833AE1;
+   font-size: 20px;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Helvetica;
+   }
+
+.hdr {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoandwords {
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontalmenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 30px;
+}
+
+.menu123 {
+    margin: 0 50px;
+}
+
+.logoandwords:hover {
+    color: #833AE1; 
+   } 

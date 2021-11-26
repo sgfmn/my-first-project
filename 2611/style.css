@@ -1,24 +1,24 @@
-.main-width {
-    width: 80%;
+.main123 {
+    width: 100%;
+    max-width: 960px;
     display: flex;
     margin: auto;
 }
 
-.div-width1 {
-    width: 22%;
-    height: 40vh;
-        border: 3px solid black;
+.div-width {
+    width: 33%;
+    border: 3px solid black;
     background-color: yellow;
     margin: 5px;
-    padding: 20px;
+    padding: 10px;
 }
 
-.div-width2 {
-    width: 75%;
-    height: calc(100vh - 300px);
-        border: 3px solid black;
-    background-color: yellow;
-    margin: 5px;
-    padding: 20px;
+@media screen and (max-width: 960px) {
+    .main123 {
+        flex-direction: column;
+    }
+    .div-width {
+        width: 90%;
+    }
 }
 
